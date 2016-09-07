@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Monda', sans-serif;
+    background-color: #EEE;
+}
+
+/*Header styling */
+.navbar-default {
+    background-color: #DDD;
+    border-radius: 0px;
+}
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+#dropdown-menu {
+    border: 2px solid #888;
+}
+#dropdown-menu.active {
+    border-color: #FFF;
+}
+#dropdown-menu.active > .icon-bar {
+    background-color: #FFF;
+}
+#collapsable-nav li {
+    text-transform: capitalize;
+}
+#collapsable-nav li hr {
+    margin:0px;
+}
+/*End of Header styling*/
+
+/*Main Contant styling*/
+h1 {
+    text-transform: capitalize;
+    margin-top: 0px;
+    font-size: 32px;
+    font-weight: 700;
+}
+h2 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 24px;
+}
+#main-body {
+    width: 95%;
+}
+#main-body section{
+    background-color: #DDD;
+    margin-bottom: 20px;
+}
+/*End of Main Content styling*/
+
+@media (max-width: 767px) {
+    #main-body {
+        width: 80%;
+    }
+    #collapsable-nav {
+        background-color: #FFF;
+    }
+}
